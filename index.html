@@ -4,6 +4,7 @@
 <head> 
     <title>Sandy Chen Resume</title> 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evenly Spaced Elements</title>
     <style>
         .container {
@@ -19,14 +20,21 @@
         body {
             background-color: hsl(60, 89%, 96%); /* Light pastel yellow */
         }
+        .center-text {
+            text-align: center;
+            width: 90%; /* Responsive width */
+            max-width: 600px; /* Maximum width */
+            margin: 0 auto; /* Center the container */
+        }
     </style>
 
 </head> 
 
 <body>
+    <div class="center-text">
     <header>
         <h1>Sandy Chen</h1>           
-        <div class  = "container", style="width: 8in; margin: 0;">
+        <div class  = "container", style="width: 8in; margin: 0; text-align: left;">
             
                <span><a href="https://www.google.com/maps/place/Vancouver,+BC" target="_blank">Vancouver, BC</a></span>
                <span><a href="tel:424-234-9948" target="_blank">1226-667-6348</a></span>
@@ -38,7 +46,7 @@
 
         <hr>
     <section>
-        <div style="width: 8in; margin: 0;">
+        <div style="width: 8in; margin: 0;text-align: left;">
             <h2>About Me</h2>
             <p>At a young age, I realized two simple things: work hard and live with no regrets.</p>
             <p>I was raised in a humble household, where I started working under the tables and earning $5 per hour at the age of 12. This early start in the working world instilled in me a strong work ethic, propelling me through university on my own dime. Initially, I took the safe path, securing an accounting job in the public sector, lured by the stability of a pension plan. My life in my early-30s was secure but boring and unfulfilling.</p>
@@ -49,7 +57,7 @@
             <p>I'm looking forward to bringing my knack for analysis and go-getter attitude to your team. I believe my path shows just how ambitious, resilient, and dedicated to growth I am.</p>
         </div>
         
-    <div style="width: 8in; margin: 0;">
+    <div style="width: 8in; margin: 0;text-align: left;">
     <h2> WORK EXPERIENCE</h2>
 
     <div><h3>March 2023 to Current</h3></div>
@@ -82,15 +90,18 @@
     </ul>
     <hr>
     <section>
+    <div style="width: 8in; margin: 0;text-align: left;">
     <h2>EDUCATION & CERTIFICATION</h2>
     <div><h3><span>2019-2021</span></h3></div>
     <div class = "details"><span><b>BC Institute of Technology</b> </span>  <span> - Applied Database Design and Admin Ceritificate</span> </div>
     <div><h3><span><span>2007 - 2011</span></span></h3></div>
     <div class = "details"><span><b>Simon Fraser University</b> </span>  <span> - BBA in Finance</span></div>
     </div>
+    </div>
     </section>
 
 </section>
+</div>
 </body> 
 
 </html>
